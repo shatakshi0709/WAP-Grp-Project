@@ -16,7 +16,7 @@ function Signup() {
     <div className={styles.page}>
       <div className={styles.card}>
         <h1 className={styles.title}>Create account</h1>
-        <p className={styles.subtitle}>Join PinUI and start saving ideas</p>
+        <p className={styles.subtitle}>Join Pixora and start saving ideas</p>
 
         <form className={styles.form} onSubmit={handleSubmit}>
           <input type="text" placeholder="Full name" className={styles.input} required />

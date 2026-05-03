@@ -64,3 +64,5 @@ src/
 
 
 ---
+Deployed Link
+https://thriving-froyo-f436d0.netlify.app/

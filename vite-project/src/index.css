@@ -4,8 +4,11 @@ a {
 }
 
 a:focus,
-a:active,
-a:visited {
+a:active {
   text-decoration: none;
   color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
 }

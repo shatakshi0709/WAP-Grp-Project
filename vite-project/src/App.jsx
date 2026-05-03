@@ -1,29 +1,30 @@
-import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
+
 import Home from "./pages/Home/Home";
 import Explore from "./pages/Explore/Explore";
-import News from "./pages/News/News";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
+import News from "./pages/News/News";
+import Notifications from "./pages/Notifications/Notifications";
 import Profile from "./pages/Profile/Profile";
 
-export default function App() {
-  const [searchQuery, setSearchQuery] = useState("");
-
+function App() {
   return (
-    <BrowserRouter>
-      <Navbar search={searchQuery} setSearch={setSearchQuery} />
+    <Router>
+      <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home search={searchQuery} />} />
+        <Route path="/" element={<Home />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/news" element={<News />} />
+        <Route path="/notifications" element={<Notifications />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-      <Route path="/profile" element={<Profile />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
+
+export default App;

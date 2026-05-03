@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import MasonryGrid from "../../Components/MasonryGrid/MasonryGrid";
 import CategoryTabs from "../../Components/CategoryTabs/CategoryTabs";
 import usePinsFeed from "../../hooks/usePinsFeed";
-import useInfiniteScroll from "../../hooks/useInfiniteScroll";
+import useInfiniteScroll from "../../hooks/useInfineScroll";
 import { categories } from "../../data/categories";
 import styles from "./Explore.module.css";
 

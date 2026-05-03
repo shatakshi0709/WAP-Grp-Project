@@ -15,7 +15,7 @@ function Login() {
     <div className={styles.page}>
       <div className={styles.card}>
         <h1 className={styles.title}>Login</h1>
-        <p className={styles.subtitle}>Welcome back to Pinxora</p>
+        <p className={styles.subtitle}>Welcome back to pixora</p>
 
         <form className={styles.form} onSubmit={handleSubmit}>
           <input type="email" placeholder="Email" className={styles.input} required />

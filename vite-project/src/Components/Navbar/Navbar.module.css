@@ -128,7 +128,7 @@
 /* SIGNUP */
 .signupBtn {
   text-decoration: none;
-  background: #111827;
+  background: #e60023;
   color: #ffffff;
   padding: 10px 18px;
   border-radius: 999px;
@@ -136,7 +136,7 @@
 }
 
 .signupBtn:hover {
-  background: #1f2937;
+  background: #ad081b;
 }
 
 @media (max-width: 1024px) {
